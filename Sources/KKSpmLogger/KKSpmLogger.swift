@@ -8,6 +8,8 @@ public struct KKSpmLogger {
     
     public func sayHello() {
         print("KKSpm say hello")
+        
+        self.httpRequest()
     }
     
     private func httpRequest() {
